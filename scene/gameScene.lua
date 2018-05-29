@@ -76,9 +76,8 @@ function scene:create( event )
     -- Insert our game items in the correct back-to-front order
     sceneGroup:insert( map )
     sceneGroup:insert( knight )
- 
-end
- 
+
+ end 
  
 -- show()
 function scene:show( event )
